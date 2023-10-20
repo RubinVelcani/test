@@ -1,0 +1,49 @@
+{
+  "id": "settings",
+  "label": "Settings",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "img": {
+        "type": "Image",
+        "config": {
+          "label": "img",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "title",
+          "placeholder": ""
+        }
+      },
+      "nav": {
+        "type": "Group",
+        "config": {
+          "label": "nav",
+          "fields": {
+            "link1": {
+              "type": "Link",
+              "config": {
+                "label": "link1",
+                "placeholder": "",
+                "select": null
+              }
+            },
+            "label1": {
+              "type": "Text",
+              "config": {
+                "label": "label1",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
