@@ -66,7 +66,7 @@ interface HdmiDocumentData {
 export type HdmiDocument<Lang extends string = string> =
   prismic.PrismicDocumentWithUID<Simplify<HdmiDocumentData>, "hdmi", Lang>;
 
-type HomepageDocumentDataSlicesSlice = never;
+type HomepageDocumentDataSlicesSlice = HeroSlice;
 
 /**
  * Content for homepage documents
